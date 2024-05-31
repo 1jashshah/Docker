@@ -1,0 +1,8 @@
+Docker --version
+docker ps
+docker images
+docker run redis
+docker stop containerid
+docker ps -a
+docker pull nginx:1.14-alphine
+docker run -d --name webapp nginx:1.14-alpine
